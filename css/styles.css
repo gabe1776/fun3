@@ -1,0 +1,129 @@
+
+
+.text-caesar {
+  font-family: 'Caesar Dressing', cursive;
+}
+/*nav bar*/
+
+
+.nav-decor {
+  height: 75px;
+  background-color: #8E8C8D;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 7px 25px;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #DBD9DB;
+  color: black;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  margin-top: 10px;
+}
+
+.navbar-inverse {
+  margin-bottom: 0px;
+}
+/*Logo*/
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-size: 55px;
+  margin-top: 10px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: black;
+}
+
+
+/*nav bar ends*/
+/*hero section*/
+
+.jumbotron {
+  background-image: url('../img/hero-image2.jpeg');
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-bottom: 0px;
+}
+
+.jumbo-content {
+  margin-top: 200px;
+  color: #fff;
+}
+
+.jumbo-content h2 {
+  margin-top: 100px;
+}
+
+.jumbotron .button-1 {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 7px 25px;
+  background-color: transparent;
+  color: white;
+  font-size: 38px;
+}
+
+.button-1:hover {
+  background-color: #DBD9DB;
+  color: black;
+  text-decoration: none;
+}
+
+/*hero section ends*/
+/*top content begins*/
+.top-content {
+  background-color: grey;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-content h1 {
+  margin: 100px 0px 100px 0px;
+  font-size: 63px;
+  text-decoration: underline;
+}
+/*top content ends*/
+
+
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition-duration: 1s;
+}
+
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition-duration: 2s;
+}
+
+
+.work-with:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition-duration: 4s;
+  border: solid  4px #fff;
+  display: inline-block;
+  text-decoration: none;
+}
