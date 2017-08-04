@@ -7,12 +7,21 @@
 .text-roboto {
   font-family: 'Roboto', sans-serif;
 }
+
+.text-open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.absolute {
+  -webkit-filter: blur(-100px); /* Safari 6.0 - 9.0 */
+  filter: blur(-100px);
+}
 /*nav bar*/
 
 
 .nav-decor {
   height: 75px;
-  background-color: #8E8C8D;
+  background-color: #41bdbd;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -27,8 +36,8 @@
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-  background-color: #DBD9DB;
-  color: black;
+  background-color: #F4F3F4;
+  color: #4B05A9;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -46,7 +55,7 @@
 }
 
 .navbar-inverse .navbar-brand:hover {
-  color: black;
+  color: #4B05A9;
 }
 
 
@@ -54,16 +63,16 @@
 /*hero section*/
 
 .jumbotron {
-  background-image: url('../img/hero-image2.jpeg');
+  background-image: url('../img/hero3.jpg');
   background-size: cover;
   width: 100%;
   height: 700px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #4B05A9;
 }
 
 .jumbo-content h2 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .jumbotron h1{
@@ -72,25 +81,25 @@
 }
 
 .jumbotron .button-1 {
-  border: 1px solid #fff;
+  border: 1px solid #4B05A9;
   border-radius: 10px;
   margin: 10px 10px;
   padding: 7px 25px;
   background-color: transparent;
-  color: white;
+  color: #4B05A9;
   font-size: 42px;
 }
 
 .button-1:hover {
-  background-color: #DBD9DB;
-  color: black;
+  background-color: #F4F3F4;
+  color: #4B05A9;
   text-decoration: none;
 }
 
 /*hero section ends*/
 /*top content begins*/
 .top-content {
-  background-color: grey;
+  background-color: #F4F3F4;
 }
 
 .flex-row {
@@ -102,18 +111,24 @@
   margin: 100px 0px 50px 0px;
   font-size: 63px;
   text-decoration: underline;
+  color: #41bdbd;
 }
 
 .work-with-text {
-  color: #fff;
+  color: #000;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 29px;
   font-weight: 500;
   margin-top: 50px;
 
 }
 /*top content ends*/
-
+/*middle content begins*/
+.middle-content {
+  background-color: #41bdbd;
+  height: 600px;
+}
+/*middle content ends*/
 
 .grow:hover
 {
@@ -136,8 +151,9 @@
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  transition-duration: 3s;
-  border: solid  4px #fff;
+  transition-duration: 2s;
+  border: solid  5px #F4F3F4;
   display: inline-block;
   text-decoration: none;
+  color: #4B05A9;
 }
