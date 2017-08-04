@@ -142,14 +142,25 @@
 .contact {
   height: 500px;
   background-color: #f1dfc2;
+  padding-top: 50px;
 }
 
 form {
   border: solid 2px #000;
   width: 400px;
+  height: 300px;
   background-color: #a47c52;
 }
 
+.map {
+  border: solid 2px #000;
+  width: 405px;
+  background-color: #a47c52;
+}
+
+.map p {
+  margin: 0px;
+}
 /*contact ends*/
 .grow:hover
 {
