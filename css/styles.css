@@ -140,9 +140,15 @@
 /*middle content ends*/
 /*contact begins*/
 .contact {
-  height: 500px;
+  height: 700px;
   background-color: #f1dfc2;
-  padding-top: 50px;
+  padding-top: 75px;
+}
+
+.contact h1 {
+  color: #4B05A9;
+  font-size: 70px;
+  margin-bottom: 50px;
 }
 
 form {
@@ -162,6 +168,13 @@ form {
   margin: 0px;
 }
 /*contact ends*/
+
+/*footer begins*/
+footer {
+  height: 100px;
+  background-color: #41BDBD;
+}
+/*footere ends*/
 .grow:hover
 {
         -webkit-transform: scale(1.2);
@@ -188,4 +201,10 @@ form {
   display: inline-block;
   text-decoration: none;
   color: #4B05A9;
+}
+
+@media only screen and (max-width: 500px) {
+     {
+        
+    }
 }
